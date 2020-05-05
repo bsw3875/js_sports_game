@@ -4,6 +4,7 @@ let counter = document.querySelector("#counter");
 incrementButton.addEventListener("click", function () {
     console.log("+ button click")
 
+
     let newCounterValue = Number(counter.innerHTML) + 1;
     counter.innerHTML = newCounterValue;
 })
