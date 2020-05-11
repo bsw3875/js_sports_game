@@ -1,32 +1,34 @@
-let incrementButton = document.querySelector("#increment");
-let decrementButton = document.querySelector("#decrement");
-let counter = document.querySelector("#counter");
-incrementButton.addEventListener("click", function () {
-    console.log("+ button click")
+const teamoneNumshots = document.querySelector("#teamone-numshots")
+teamoneNumshots.addEventListener("click", function () {
+}
+    const teamoneNumgoals = document.querySelector("#teamone-numgoals")
+teamoneNumgoals.addEventListener("click", function () {
+}
+     const teamoneShootButton = document.querySelector("#teamone-shoot-button")
+teamoneShootButton.addEventListener("click", function () {
+}
+        const teamtwoNumshots = document.querySelector("#teamtwo-numshots")
+teamtwoNumshots.addEventListener("click", function () {
+}
+                const teamtwoNumgoals = document.querySelector("#teamtwo-numgoals")
+teamtwoNumgoals.addEventListener("click", function () {
+}
+                    const teamtwoShootButton = document.querySelector("#teamtwo-shoot-button")
+teamtwoShootButton.addEventListener("click", function () {
 
-    let newCounterValue = Number(counter.innerHTML) + 1;
-    counter.innerHTML = newCounterValue;
 })
 
-decrementButton.addEventListener("click", function () {
-    console.log("- button clicked")
 
-    let newCounterValue = Number(counter.innerHTML) - 1;
-    counter.innerHTML = newCounterValue;
 
-})
-function shoot() {
-    document.getElementById("shoot").value = document.getElementById("shoot").value
 
-}
 
-function goals() {
-    document.getElementById("goals").value = document.getElementById("goals").value
-}
 
-function getRndInteger(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+
+
+
+
+
+
 
 
 
