@@ -1,0 +1,25 @@
+.body {
+color: navy;
+background-color: cadetblue;
+width: 850px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: inherit;
+font-size: 5px;
+
+}
+
+.hide {
+    display: flexbox;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+#reset-container, h1 {
+    text-align: center;
+}
